@@ -10,3 +10,7 @@ if (name.indexOf("L") === 0) {
 } else {
     alert("Next!");
 }
+//step 7: Hello World! function
+function sayHello() {
+    alert("Hello World");
+}
