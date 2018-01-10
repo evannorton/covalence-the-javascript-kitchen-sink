@@ -16,3 +16,30 @@ function sayHello() {
 }
 //step 8: call function
 sayHello();
+//step 9: checkAge function
+function checkAge(name, age) {
+    if (age < 21) {
+        alert("Sorry " + name + ", you aren't old enough to view this page!");
+    }
+}
+//step 10: make friends and run through the function
+let charles = {
+    name: "Charles",
+    age: 21
+};
+let abby = {
+    name: "Abby",
+    age: 27
+};
+let james = {
+    name: "James",
+    age: 18
+};
+let john = {
+    name: "John",
+    age: 17
+};
+checkAge(charles.name, charles.age);
+checkAge(abby.name, abby.age);
+checkAge(james.name, james.age);
+checkAge(john.name, john.age);
