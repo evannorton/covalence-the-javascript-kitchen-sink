@@ -76,3 +76,15 @@ let friends = [
 for (let i=0; i < friends.length; i++) {
     checkAge(friends[i].name, friends[i].age);
 }
+//step 15: getLength function
+function getLength(string) {
+    return string.length;
+}
+//step 16: call function
+let length = getLength("Hello World");
+//step 17: check odd/even on length
+if (length % 2 === 0) {
+    console.log("The world is nice and even!");
+} else {
+    console.log("The world is an odd place!");
+}
