@@ -12,5 +12,7 @@ if (name.indexOf("L") === 0) {
 }
 //step 7: Hello World! function
 function sayHello() {
-    alert("Hello World");
+    alert("Hello World!");
 }
+//step 8: call function
+sayHello();
