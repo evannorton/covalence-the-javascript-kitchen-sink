@@ -43,3 +43,5 @@ checkAge(charles.name, charles.age);
 checkAge(abby.name, abby.age);
 checkAge(james.name, james.age);
 checkAge(john.name, john.age);
+//step 11: vegetable array
+let veggies = ["spinach", "corn", "peppers"];
