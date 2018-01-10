@@ -45,3 +45,7 @@ checkAge(james.name, james.age);
 checkAge(john.name, john.age);
 //step 11: vegetable array
 let veggies = ["spinach", "corn", "peppers"];
+//step 12: loop through veggies
+for (let i=0; i < veggies.length; i++) {
+    console.log(veggies[i]);
+}
