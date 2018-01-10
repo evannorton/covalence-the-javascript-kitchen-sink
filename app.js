@@ -49,3 +49,30 @@ let veggies = ["spinach", "corn", "peppers"];
 for (let i=0; i < veggies.length; i++) {
     console.log(veggies[i]);
 }
+//step 13: array of 5 friends
+let friends = [
+    {
+        name: "Trey",
+        age: 20
+    },
+    {
+        name: "Jeff",
+        age: 22
+    },
+    {
+        name: "Mike",
+        age: 23
+    },
+    {
+        name: "Page",
+        age: 22
+    },
+    {
+        name: "Fish",
+        age: 24
+    }
+];
+//step 14: run friends through loop
+for (let i=0; i < friends.length; i++) {
+    checkAge(friends[i].name, friends[i].age);
+}
